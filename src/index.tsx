@@ -4,7 +4,7 @@ import { FixieCorpus } from 'ai-jsx/batteries/docs';
 import { Sidekick } from 'ai-jsx/sidekick';
 
 // This Document Collection contains information from the Git and GitHub documentation.
-const FIXIE_DOC_COLLECTION_ID: string = 'b72ad16f-19fc-42d0-b053-69ab84f1e121';
+const FIXIE_DOC_COLLECTION_ID: string = '286b5a7d-2bcd-483f-aef5-acf157c5aea5';
 if (!FIXIE_DOC_COLLECTION_ID) {
   throw new Error('Please set a FIXIE_CORPUS_ID in src/index.tsx');
 }

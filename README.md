@@ -10,9 +10,19 @@ To get started:
 You **must** create a "Fine Grained" access token. Be sure to give the token
 **read only** access to things you want to ask the Sidekick about -- we recommend
 adding access to repository contents, issues, and pull requests, at a minimum.
-3. Set the environment variable `GITHUB_TOKEN` to your GitHub token.
-4. Then, you can run:
+3. Create a file named ```.env``` in this project.
+
+* Add your GitHub token to the ```.env`` file as follows:
+
+```terminal
+GITHUB_TOKEN=YOUR-TOKEN-HERE
 ```
-$ npm install
-$ npm run dev
+
+* Save the file.
+
+4. Get your Sidekick up and running with:
+
+```
+npm install
+npm run dev
 ```
